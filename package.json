@@ -1,0 +1,15 @@
+{
+  "name": "nats-streaming-cli",
+  "version": "0.1.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "mateusz.jonak@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "node-nats-streaming": "^0.0.52",
+    "pino": "^5.11.1"
+  }
+}
