@@ -48,7 +48,7 @@ class NATSStreamingClient {
     });
   };
 
-  async publish(subject, message) {
+  publish(subject, message) {
     return new Promise((resolve, reject) => {
       this.client.publish(subject, message, function(err, guid){
         if(err) {

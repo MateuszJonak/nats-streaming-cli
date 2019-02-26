@@ -5,7 +5,7 @@ It was developed only for test how NATS Streaming works.
 I plan to add more stuff like for example subscriber in the future.
 Stay tuned. 
 
-## How to run?
+## How it's working?
 
 The easiest way to run is to use a command for example:
 
